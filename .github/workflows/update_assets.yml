@@ -1,0 +1,34 @@
+name: Update Asset Data
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Run every hour
+  workflow_dispatch: # Enable manual run
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Run collector
+        run: python collector.py
+        
+      - name: Commit and Push
+        run: |
+          git config --global user.name "AssetBot"
+          git config --global user.email "bot@github.com"
+          git add data.json
+          git commit -m "Update assets: $(date)" || exit 0
+          git push
