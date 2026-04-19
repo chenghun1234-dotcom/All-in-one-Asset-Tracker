@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "All-In-One Asset Tracker API",
+    "description": "Real-time market data for stocks and cryptocurrencies, including USD/KRW exchange rates. Data is updated hourly.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://all-in-one-asset-tracker.vercel.app/api/v1",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/data": {
+      "get": {
+        "summary": "Get all market data",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string" },
+                    "timestamp": { "type": "string" },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "currency": { "type": "string" },
+                        "exchange_rate_krw": { "type": "number" },
+                        "stocks": { "type": "object" },
+                        "crypto": { "type": "object" },
+                        "last_updated": { "type": "string" }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
