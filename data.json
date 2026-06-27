@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "last_updated": "2026-06-27T15:32:45.551376",
+        "last_updated": "2026-06-27T16:30:27.610755",
         "status": "success"
     },
     "market": {
@@ -14,11 +14,11 @@
             "GOOGL": 337.39
         },
         "crypto": {
-            "BITCOIN": 60689,
-            "ETHEREUM": 1600.3,
-            "SOLANA": 72.79,
-            "RIPPLE": 1.072,
-            "CARDANO": 0.148707
+            "BITCOIN": 60625,
+            "ETHEREUM": 1600.32,
+            "SOLANA": 72.66,
+            "RIPPLE": 1.07,
+            "CARDANO": 0.148154
         }
     }
 }
