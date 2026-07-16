@@ -1,24 +1,24 @@
 {
     "metadata": {
-        "last_updated": "2026-07-15T23:01:10.669181",
+        "last_updated": "2026-07-16T03:12:45.465525",
         "status": "success"
     },
     "market": {
-        "exchange_rate": 1490.484455,
+        "exchange_rate": 1488.308171,
         "stocks": {
             "AAPL": 327.5,
             "TSLA": 394.46,
             "NVDA": 212.5,
-            "005930.KS": 279500.0,
+            "005930.KS": 258000.0,
             "MSFT": 395.63,
             "GOOGL": 370.92
         },
         "crypto": {
-            "BITCOIN": 64830,
-            "ETHEREUM": 1921.95,
-            "SOLANA": 77.44,
+            "BITCOIN": 64624,
+            "ETHEREUM": 1925.47,
+            "SOLANA": 77.09,
             "RIPPLE": 1.12,
-            "CARDANO": 0.16514
+            "CARDANO": 0.165853
         }
     }
 }
