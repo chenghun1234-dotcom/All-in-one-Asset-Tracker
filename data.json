@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "last_updated": "2026-08-10T21:47:53.201604",
-        "status": "success"
+        "last_updated": "2026-08-10T22:42:41.225361",
+        "status": "partial_success"
     },
     "market": {
         "exchange_rate": 1409.640365,
@@ -13,12 +13,6 @@
             "MSFT": 506.06,
             "GOOGL": 357.52
         },
-        "crypto": {
-            "BITCOIN": 63975,
-            "ETHEREUM": 1874.23,
-            "SOLANA": 76.34,
-            "RIPPLE": 1.019,
-            "CARDANO": 0.19265
-        }
+        "crypto": {}
     }
 }
