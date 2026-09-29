@@ -1,17 +1,17 @@
 {
     "metadata": {
-        "last_updated": "2026-09-29T15:34:29.324111",
+        "last_updated": "2026-09-29T20:35:43.585011",
         "status": "partial_success"
     },
     "market": {
         "exchange_rate": 1358.968392,
         "stocks": {
-            "AAPL": 332.17,
-            "TSLA": 354.08,
-            "NVDA": 230.65,
+            "AAPL": 329.4,
+            "TSLA": 352.84,
+            "NVDA": 227.21,
             "005930.KS": 272500.0,
-            "MSFT": 509.19,
-            "GOOGL": 339.23
+            "MSFT": 508.96,
+            "GOOGL": 340.92
         },
         "crypto": {}
     }
